@@ -1,0 +1,371 @@
+{
+  "1_left": {
+    "successes": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "sr": 40.0,
+    "picks": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+    ],
+    "nav_vis": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "nav_vis_rate": 100.0,
+    "pick_correct_rate": 100.0
+  },
+  "1_right": {
+    "successes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sr": 0.0,
+    "picks": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+    ],
+    "nav_vis": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "nav_vis_rate": 0.0,
+    "pick_correct_rate": 100.0
+  },
+  "4_left": {
+    "successes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sr": 0.0,
+    "picks": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+    ],
+    "nav_vis": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "nav_vis_rate": 0.0,
+    "pick_correct_rate": 100.0
+  },
+  "4_right": {
+    "successes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sr": 0.0,
+    "picks": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+    ],
+    "nav_vis": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "nav_vis_rate": 0.0,
+    "pick_correct_rate": 0.0
+  },
+  "7_left": {
+    "successes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "sr": 80.0,
+    "picks": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+    ],
+    "nav_vis": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "nav_vis_rate": 100.0,
+    "pick_correct_rate": 100.0
+  },
+  "7_right": {
+    "successes": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "sr": 80.0,
+    "picks": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+    ],
+    "nav_vis": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "nav_vis_rate": 100.0,
+    "pick_correct_rate": 100.0
+  },
+  "8_left": {
+    "successes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "sr": 100.0,
+    "picks": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+    ],
+    "nav_vis": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "nav_vis_rate": 100.0,
+    "pick_correct_rate": 100.0
+  },
+  "8_right": {
+    "successes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sr": 0.0,
+    "picks": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+    ],
+    "nav_vis": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "nav_vis_rate": 100.0,
+    "pick_correct_rate": 100.0
+  },
+  "9_left": {
+    "successes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sr": 0.0,
+    "picks": [
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left"
+    ],
+    "nav_vis": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "nav_vis_rate": 100.0,
+    "pick_correct_rate": 100.0
+  }
+}

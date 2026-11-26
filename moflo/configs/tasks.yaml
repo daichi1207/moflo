@@ -1,0 +1,83 @@
+tasks:
+  TurnOnMicrowave:
+    paraphrases:
+      - "turn on the microwave"
+      - "start the microwave"
+      - "activate the microwave"
+    camera_names:
+      - robot0_agentview_right
+  CloseDrawer:
+    paraphrases:
+      - "close the drawer"
+      - "push the drawer shut"
+      - "shut the drawer"
+    camera_names:
+      - robot0_agentview_right
+      - robot0_agentview_left
+  CloseSingleDoor:
+    paraphrases:
+      - "close the cabinet door"
+      - "shut the door"
+      - "push the door closed"
+    camera_names:
+      - robot0_agentview_right
+  TurnOnSinkFaucet:
+    paraphrases:
+      - "turn on the faucet"
+      - "start the water"
+      - "turn on the sink"
+    camera_names:
+      - robot0_agentview_right
+  TurnOnStove:
+    paraphrases:
+      - "turn on the stove"
+      - "light the burner"
+      - "start the stove"
+    camera_names:
+      - robot0_agentview_right
+
+# Held-out paraphrases used for the paraphrase-generalization eval in
+# Section 5.6 of the paper. These are NEVER seen during scorer/flow
+# training (cache_features.py round-robins only over `paraphrases`).
+# They are semantically equivalent but lexically distinct from the
+# training paraphrases above.
+held_out_paraphrases:
+  TurnOnMicrowave:
+    - "heat up the microwave"
+    - "switch on the microwave"
+    - "begin microwaving"
+  CloseDrawer:
+    - "slide the drawer in"
+    - "tuck the drawer back"
+    - "shove the drawer closed"
+  CloseSingleDoor:
+    - "swing the cabinet door closed"
+    - "press the door shut"
+    - "secure the cabinet"
+  TurnOnSinkFaucet:
+    - "open the tap"
+    - "run the water"
+    - "switch on the kitchen tap"
+  TurnOnStove:
+    - "ignite the burner"
+    - "fire up the stovetop"
+    - "start cooking heat"
+
+train_layouts: [0, 2, 3, 5, 6]
+test_layouts: [1, 4, 7, 8, 9]
+
+# Pose window (robot-relative frame, centered on oracle pose)
+# Translation is a square centered on oracle; rotation is relative to oracle heading.
+pose_window:
+  dx_range: 2.0   # ±1.0 m
+  dy_range: 2.0   # ±1.0 m
+  dtheta_range: 6.283185307  # ±pi
+
+# Candidate-sampling distance-mix around oracle (x,y only; theta uniform within ±pi).
+distance_mix:
+  close_frac: 0.40    # within 0.5 m
+  close_radius: 0.5
+  medium_frac: 0.40   # 0.5–1.2 m
+  medium_radius: 1.2
+  far_frac: 0.20      # 1.2–1.0 m (clipped to dx_range/2)
+  far_radius_clip: 1.0
